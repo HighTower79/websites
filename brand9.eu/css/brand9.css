@@ -150,7 +150,7 @@ a:focus {
 @media screen and (min-width: 768px) {
   body {
     color: #eee;
-    background: url("http://brand9.hightower24.de/img/background_800_prog.jpg") no-repeat fixed 0 0 / cover transparent;
+    background: url("http://bootstrap.schmeiser.site/img/background_800_prog.jpg") no-repeat fixed 0 0 / cover transparent;
   }
 }
 @media screen and (max-width: 767px) {
