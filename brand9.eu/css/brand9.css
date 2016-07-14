@@ -1,0 +1,308 @@
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+html { overflow-y: scroll; }
+
+a,
+a:hover,
+a:focus {
+  color: #333;
+}
+
+.hr-name {
+  max-width: 50%;
+  border-color: #eee;
+  border-width: 5px 0 0;
+}
+
+.nav > li > a {
+  font-weight: bold;
+  color: #eee;
+  border: 2px solid #eee;
+}
+@media screen and (max-width: 767px) {
+  .nav > li > a { box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8); }
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  color: #333;
+  border: 2px solid #333;
+}
+.nav > li.active a { background-color: #333; }
+@media screen and (min-width: 768px) {
+  .nav > li.active > a:hover { border: 2px solid #333; }
+}
+@media screen and (max-width: 767px) {
+  .nav > li.active > a:hover { border: 2px solid #eee; }
+}
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  background-color: #333;
+}
+@media screen and (max-width: 767px) {
+  .nav-pills > li.active > a:hover,
+  .nav-pills > li.active > a:focus {
+    color: #333;
+    background-color: #eee;
+  }
+}
+.navbar-collapse {
+  padding-right: 0;
+  padding-left: 0;
+  border: none;
+  box-shadow: none;
+}
+
+.page-header { border: none; }
+
+.row-name {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #eee;
+}
+@media screen and (max-width: 767px) {
+  .row-name { margin-top: 20px; }
+}
+
+.col-name {
+  border: 5px solid;
+  -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+          border-radius: 10px;
+}
+
+.container { max-width: 1000px; }
+@media screen and (max-width: 767px) {
+  .container { max-width: 767px; }
+}
+.footer {
+  padding-top: 10px;
+  margin: 20px -15px 10px;
+  color: #eee;
+  border-top: 1px solid #eee;
+}
+#fb-button {
+  width: 20px;
+  height: 20px;
+  padding-left: 6px;
+  font-size: 20px;
+  line-height: 11px;
+}
+
+.container .jumbotron {
+  padding: 20px 20px;
+  margin: 20px -15px 0 -15px;
+  color: #333;
+  background-color: #fff;
+}
+@media screen and (max-width: 767px) {
+  .container .jumbotron {
+    margin: 90px 0 0 0;
+  }
+}
+.carousel-inner {
+  max-width: 800px;
+  border: 2px solid #333;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  min-width: 100%;
+}
+.carousel-caption {
+  right: auto;
+  bottom: 5px;
+  left: 5px;
+  padding: 0;
+}
+.carousel-indicators {
+  position: static;
+  left: 0;
+  width: 100%;
+  max-width: 800px;
+  margin: 5px 0;
+  overflow: auto;
+  overflow-x: scroll;
+}
+.carousel-indicators li {
+  display: table-cell;
+  float: none;
+  height: 70px;
+  margin-right: 10px !important;
+  margin-left: -40px;
+  text-indent: 0;
+  background-color: #eee;
+  border: none;
+  border-right: 5px solid #eee !important;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+  opacity: 0.4;
+}
+
+.carousel-indicators > li.active { opacity: 1; }
+
+@media screen and (min-width: 768px) {
+  body {
+    color: #eee;
+    background: url("http://brand9.hightower24.de/img/background_800_prog.jpg") no-repeat fixed 0 0 / cover transparent;
+  }
+}
+@media screen and (max-width: 767px) {
+  body { background-color: #333; }
+}
+
+@media screen and (min-width: 768px) {
+  .row-logo {
+    margin-top: 50px;
+    margin-bottom: 170px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .b9-logo {
+    width: 250px;
+    height: 201px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .b9-logo {
+    width: 75px;
+    height: 60px;
+  }
+}
+
+.nav-pills > li { padding: 0 2px; }
+@media screen and (min-width: 768px) {
+  .nav-pills > li { font-size: 24px; }
+}
+@media screen and (max-width: 767px) {
+  .nav-pills > li {
+    margin-left: 2px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .subpage {
+    margin-top: 50px !important;
+    margin-bottom: 70px !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .navbar > .container-fluid {
+    padding: 0;
+    margin: 0 -15px;
+  }
+}
+@media screen and (max-width: 767px) {
+  hr {
+    border-color: #333;
+  }
+  button.collapsed {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+  }
+  .navbar-collapse {
+    padding: 0 10px 10px 10px;
+    margin: 0 !important;
+    -webkit-border-radius: 0 0 10px 10px;
+       -moz-border-radius: 0 0 10px 10px;
+            border-radius: 0 0px 10px 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.8);
+  }
+  .navbar-header {
+    -webkit-border-radius: 0 0 10px 10px;
+       -moz-border-radius: 0 0 10px 10px;
+            border-radius: 0 0 10px 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.8);
+  }
+  .navbar-fixed-top {
+    border: none;
+  }
+  .container > .navbar-header,
+  .container-fluid > .navbar-header {
+    min-height: 76px;
+    background-color: #333;
+  }
+  .container > .navbar-collapse,
+  .container-fluid > .navbar-collapse {
+    background-color: #333;
+  }
+  .row-logo {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .row-logo img {
+    height: 70px;
+  }
+  .navbar-toggle {
+    border: 2px solid #eee;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8) inset;
+  }
+  .navbar-toggle .icon-bar {
+    background-color: #fff;
+  }
+  .navbar-brand,
+  .navbar-nav > li > a {
+    padding: 0;
+    margin: 8px 0 0 15px;
+  }
+  .bc {
+    color: #eee;
+    text-align: center;
+  }
+  .bc > h2 {
+    text-shadow: 4px 3px 2px rgba(0, 0, 0, 0.6);
+  }
+  .nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+}
+
+.carousel-control {
+  bottom: 93px;
+  width: 5%;
+  opacity: .1;
+}
+
+#message a {
+  position: fixed;
+  top: 100%;
+  right: -2px;
+  z-index: 999;
+  display: block;
+  display: none;
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+  margin-top: -60px;
+  color: #eee;
+  text-align: center;
+  background-color: #333;
+  border: 2px solid #428bca;
+  -webkit-border-radius: 5px 0 0 5px;
+     -moz-border-radius: 5px 0 0 5px;
+          border-radius: 5px 0 0 5px;
+  opacity: .8;
+}
+
+@media screen and (max-width: 479px) {
+  .nav-justified > li {
+    display: block;
+    width: 100%;
+  }
+.navbar-small {
+    margin-right: -15px !important;
+    margin-left: -15px !important;
+  }
+}
+
+fs-14 {
+  font-size: 14px;
+}

@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /img/
+Disallow: /js/
+Disallow: /*.png$
+Disallow: /*.jpg$
+
+Sitemap: http://www.brand9.eu/sitemap.xml

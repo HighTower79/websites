@@ -1,0 +1,1 @@
+echo %~n1_prog%~x1
